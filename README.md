@@ -14,19 +14,19 @@ The project is organized into the following main components:
 
 3. **Model Evaluation**: The trained model's performance is evaluated using various metrics to ensure its effectiveness in detecting human presence.
 
-4. **Deployment**: The trained model is deployed to create the Nightguard system, which can be used for real-time human presence detection in low light conditions.
+4. **Deployment**: The trained model is deployed to create the Nightguard system, which has the ability to take real-time thermal imaging feeds for human presence detection in low-light conditions.
 
 ## Dataset
 
-The dataset used for training the YOLOv8 model consists of thermal images captured in low light conditions. The dataset includes images with annotated bounding boxes around human subjects to facilitate supervised training. You can access dataset from [here]().
+The dataset used for training the YOLOv8 model consists of thermal images captured in low light conditions. The dataset includes images with annotated bounding boxes around human subjects to facilitate supervised training. You can access dataset from [here](https://www.kaggle.com/datasets/niteshc7r/datasets-for-object-detection-night-and-thermal).
 
 ## Training
 
-The YOLOv8 model is trained using the collected thermal image dataset. Training involves optimizing the model's parameters to minimize the detection loss and improve its ability to accurately detect human presence in low light conditions. Model was trained for 10 epochs with batch size of 30. You can access model training source code from [here]().
+The YOLOv8 model is trained using the collected thermal image dataset. Training involves optimizing the model's parameters to minimize detection loss and improve its ability to accurately detect human presence in low-light conditions. The model was trained for 10 epochs with a batch size of 30. You can access model training source code from [here](https://github.com/umairsiddique3171/nightguard-thermal_human_presence_detection/tree/main/custom_yolov8).
 
 ## Model Evaluation
 
-The trained YOLOv8 model achieved precision, recall and mAP of 0.924, 0.929 and 0.977 respectively on 95 validation images with 438 instances. Model speed per frame is given as : 
+The trained YOLOv8 model achieved precision, recall, and mAP of 0.924, 0.929, and 0.977, respectively, on 95 validation images with 438 instances. Model speed per frame is given as : 
 - 0.7ms **preprocess**
 - 18.0ms **inference**
 - 0.0ms **loss**
@@ -43,7 +43,9 @@ Nightguard demonstrates the effectiveness of using custom-trained YOLOv8 models 
 
 
 ## License 
+This project is licensed under the [MIT License](https://github.com/umairsiddique3171/nightguard-thermal_human_presence_detection/blob/main/LICENSE).
 
 ## Author 
+[@umairsiddique3171](https://github.com/umairsiddique3171)
 
 
