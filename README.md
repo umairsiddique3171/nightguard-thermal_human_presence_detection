@@ -34,7 +34,7 @@ The trained YOLOv8 model achieved precision, recall, and mAP of 0.924, 0.929, an
 
 ## Sample Video Detection
 
-Once trained and evaluated, the model is used to detect human presence from sample thermal imaging footage. The results are as under : 
+Once trained and evaluated, the model is used to detect human presence from sample thermal imaging footage. You can access the results from [here](https://github.com/umairsiddique3171/nightguard-thermal_human_presence_detection/blob/main/results.mp4). 
 
 
 ## Conclusion
