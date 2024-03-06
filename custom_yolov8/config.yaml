@@ -1,0 +1,6 @@
+path: C:\Users\US593\Work\Datasets\Thermal_Imaging_Dataset
+train: C:\Users\US593\Work\Datasets\Thermal_Imaging_Dataset\images\train
+val: C:\Users\US593\Work\Datasets\Thermal_Imaging_Dataset\images\val
+
+names: 
+  0: person
